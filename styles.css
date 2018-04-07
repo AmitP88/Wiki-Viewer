@@ -6,7 +6,7 @@ input[type=text] {
     border: 2px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
-    background-color: white;
+    background-color: whitesmoke;
     padding: 12px 15px 12px 50px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
@@ -29,7 +29,7 @@ button[type=submit] {
     border-color: #36c;
     border-radius: 5%;
     background-color: #36c;
-    color: #fff;
+    color: whitesmoke;
 }
 
 p { 
