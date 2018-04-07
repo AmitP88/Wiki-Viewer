@@ -64,6 +64,25 @@ h1 {
     margin-bottom: 1%;
 }
 
+.fa-github {
+    transform: rotate(-360deg);
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fa-github {
+    color: black;
+    margin-top: 10%;
+}
+
+.fa-github:hover {
+    color: #36c;
+}
+
+.github-profile-link {
+    color: #36c;
+}
+
 @media only screen and (max-width: 768px) {
     input[type=text] {
         margin-left: 30%;
