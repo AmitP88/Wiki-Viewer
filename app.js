@@ -18,16 +18,6 @@ $(document).ready(function() {
               $("#results").append('<a href=' + 'https://en.wikipedia.org/?curid=' + list[i].pageid + ' ' + 'target=_blank' + '> See Wiki</a>')
             }  
           }
-        });  
-      
-      
-  
-      
-      
-      
-      
-      
-      
-      
+        });
     });
-  });
+});

@@ -1,24 +1,75 @@
 input[type=text] {
     margin-left: 40%;
-    margin-top: 5%;
+    margin-top: 0;
     width: 300px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
     background-color: white;
-    background-image: url('https://png.icons8.com/search');
-    background-size: 40px 40px;
-    background-position: 1px 5px;
-    background-repeat: no-repeat;
     padding: 12px 15px 12px 50px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
   }
-  
-  
-  
-  p { 
+
+input:focus, button:focus {
+    outline: 0;
+}
+
+
+button[type=submit] {
+    vertical-align: top;
+    margin-top: 1px;
+    margin-left: 10px;
+    padding: 15px;
+    width: 45px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #36c;
+    border-radius: 5%;
+    background-color: #36c;
+    color: #fff;
+}
+
+p { 
     margin-left: 45%;
-    margin-top: 1%;
-  }
+    font-family: 'Yrsa', serif;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: 'Yrsa', serif;
+    font-weight: 200;
+    margin-bottom: 1%;
+}
+
+#results {
+    margin: 1% 10% 5% 10%;
+    padding: 5%;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Yrsa', serif;
+    font-weight: 700;
+    font-size: 4vw;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+
+@media only screen and (max-width: 768px) {
+    input[type=text] {
+        margin-left: 30%;
+    }
+
+    p {
+        margin-left: 40%;
+    }
+}
