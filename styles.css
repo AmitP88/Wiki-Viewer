@@ -92,11 +92,8 @@ footer {
     transform: rotate(-360deg);
     margin-left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.fa-github {
     color: #222;
-    margin-top: 10%;
+    margin-top: 10%;    
 }
 
 .fa-github:hover {
@@ -105,4 +102,5 @@ footer {
 
 .github-profile-link {
     color: #36c;
+    font-weight: bold;
 }
