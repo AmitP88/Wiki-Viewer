@@ -22,7 +22,6 @@ input {
 
 form {
     display: flex;
-    width: 300px;
     margin: 0 auto;
 }
 
@@ -53,8 +52,6 @@ button[type=submit] {
 
 .single-result {
     background-color: #004eed99;
-    padding: 10%;
-    margin: 3%;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -83,7 +80,6 @@ a {
 }
 
 footer {
-    margin-top: 20%;
     margin-bottom: 10%;
     font-family: 'Montserrat', sans-serif;
 }
