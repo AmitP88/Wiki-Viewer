@@ -13,9 +13,13 @@ $(document).ready(function() {
             console.log(list);
             $("#results").empty();          
             for(var i = 0; i < list.length; i++) {
-              $("#results").append('<h3>' + list[i].title + '</h3>');
-              $("#results").append(list[i].snippet);
-              $("#results").append('<a href=' + 'https://en.wikipedia.org/?curid=' + list[i].pageid + ' ' + 'target=_blank' + '> See Wiki</a>')
+              $("#results").append(
+                '<div class="single-result">' +
+                  '<h3>' + list[i].title + '</h3>' +
+                  list[i].snippet +
+                  '<a href=' + 'https://en.wikipedia.org/?curid=' + list[i].pageid + ' ' + 'target=_blank' + '> See Wiki</a>' +
+                '</div>'
+              );
             }  
           }
         });

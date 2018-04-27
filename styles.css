@@ -1,13 +1,38 @@
-input[type=text] {
-    margin-left: 40%;
-    margin-top: 0;
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    color: #222;
+    text-align: center;
+    font-family: 'Yrsa', serif;
+    font-weight: 700;
+}
+
+main {
+    width: 100%;
+    clear: both;
+  }
+  
+input {
+    width: 100%;
+    clear: both;
+    padding: 3.5%;    
+}
+
+form {
+    display: flex;
     width: 300px;
+    margin: 0 auto;
+}
+
+input[type=text] {
+    margin-top: 0;
+    margin-right: 1%;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
-    font-size: 16px;
-    background-color: whitesmoke;
-    padding: 12px 15px 12px 50px;
+    background-color: #f8f9fa;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
   }
@@ -16,14 +41,8 @@ input:focus, button:focus {
     outline: 0;
 }
 
-
 button[type=submit] {
     vertical-align: top;
-    margin-top: 1px;
-    margin-left: 10px;
-    padding: 15px;
-    width: 45px;
-    height: 45px;
     border-style: solid;
     border-width: 1px;
     border-color: #36c;
@@ -32,36 +51,41 @@ button[type=submit] {
     color: whitesmoke;
 }
 
-p { 
-    margin-left: 45%;
-    font-family: 'Yrsa', serif;
+.single-result {
+    background-color: #004eed99;
+    padding: 10%;
+    margin: 3%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    color: #222;
     font-weight: 100;
+    text-align: center;
 }
 
 h3 {
+    color: #222;
     font-size: 25px;
     font-family: 'Yrsa', serif;
     font-weight: 200;
+    margin-top: 0;
     margin-bottom: 1%;
 }
 
 #results {
-    margin: 1% 10% 5% 10%;
-    padding: 5%;
+    background-color: aliceblue;
 }
 
 a {
     text-decoration-line: none;
+    color: #2d12ff;
 }
 
-h1 {
-    text-align: center;
-    font-family: 'Yrsa', serif;
-    font-weight: 700;
-    font-size: 4vw;
-    margin-top: 10%;
-    margin-left: 5%;
-    margin-bottom: 1%;
+footer {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .fa-github {
@@ -71,7 +95,7 @@ h1 {
 }
 
 .fa-github {
-    color: black;
+    color: #222;
     margin-top: 10%;
 }
 
@@ -81,14 +105,4 @@ h1 {
 
 .github-profile-link {
     color: #36c;
-}
-
-@media only screen and (max-width: 768px) {
-    input[type=text] {
-        margin-left: 30%;
-    }
-
-    p {
-        margin-left: 40%;
-    }
 }
