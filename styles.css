@@ -74,6 +74,12 @@ h3 {
     background-color: aliceblue;
 }
 
+.no-results {
+    padding-top: 5%;
+    font-style: italic;
+    font-size: 20px;
+}
+
 a {
     text-decoration-line: none;
     color: #2d12ff;
