@@ -1,5 +1,4 @@
-$(document).ready(function() {
-  
+$(document).ready(function() { 
     $("#search").submit(function(e){
         e.preventDefault();
         var search = document.getElementById("query").value;
@@ -10,28 +9,22 @@ $(document).ready(function() {
           'type': 'GET',
           'success': function(data) {
             var list = data.query.search;
-            console.log(list);
-
             $("#results").empty();          
             for(var i = 0; i < list.length; i++) {
-
                 $("#results").append(
-                  '<div class="single-result">' +
+                  '<div class="single-result slideDown">' +
                     '<h3>' + list[i].title + '</h3>' +
                     list[i].snippet +
                     '<a href=' + 'https://en.wikipedia.org/?curid=' + list[i].pageid + ' ' + 'target=_blank' + '> See Wiki</a>' +
                   '</div>'
-                );                
-
+                );
             }
-
             // display "No results found if no wiki articles were found based on search criteria"
             if(list.length === 0){
               $("#results").append(
                 '<p class="no-results">No results found</p>'
               );
             }
-
           }
         });
     });
