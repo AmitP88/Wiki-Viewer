@@ -25,6 +25,10 @@ $(document).ready(function() {
                 '<p class="no-results">No results found</p>'
               );
             }
+
+            // empties search box after search is complete
+            document.getElementById("query").value = "";
+
           }
         });
     });
