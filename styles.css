@@ -45,7 +45,6 @@ button[type=submit] {
     border-style: solid;
     border-width: 1px;
     border-color: #36c;
-    border-radius: 5%;
     background-color: #36c;
     color: whitesmoke;
 }
