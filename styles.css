@@ -50,6 +50,11 @@ button[type=submit] {
     color: whitesmoke;
 }
 
+button[type=submit]:hover {
+    border-color: rgb(66, 129, 255);
+    background-color: rgb(66, 129, 255);
+}
+
 .single-result {
     background-color: #004eed99;
     font-family: 'Open Sans', sans-serif;
