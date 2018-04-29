@@ -12,7 +12,7 @@ $(document).ready(function() {
             $("#results").empty();          
             for(var i = 0; i < list.length; i++) {
                 $("#results").append(
-                  '<div class="single-result slideDown">' +
+                  '<div class="single-result slideRight">' +
                     '<h3>' + list[i].title + '</h3>' +
                     list[i].snippet +
                     '<a href=' + 'https://en.wikipedia.org/?curid=' + list[i].pageid + ' ' + 'target=_blank' + '> See Wiki</a>' +
