@@ -53,6 +53,7 @@ button[type=submit] {
 button[type=submit]:hover {
     border-color: rgb(66, 129, 255);
     background-color: rgb(66, 129, 255);
+    cursor: pointer;
 }
 
 .single-result {
