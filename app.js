@@ -16,9 +16,10 @@ $(document).ready(function() {
             function stagger(list, i) {
               $("#results").append(
                 '<div class="single-result slideRight">' +
-                '<h3>' + list[i].title + '</h3>' +
-                list[i].snippet +
-                '<a href=' + 'https://en.wikipedia.org/?curid=' + list[i].pageid + ' ' + 'target=_blank' + '> See Wiki</a>' +
+                  '<a href=' + 'https://en.wikipedia.org/?curid=' + list[i].pageid + ' ' + 'target=_blank' + '>' +
+                    '<h3>' + list[i].title + '</h3>' +
+                  '</a>' +
+                  list[i].snippet + '<a href=' + 'https://en.wikipedia.org/?curid=' + list[i].pageid + ' ' + 'target=_blank' + '>' + ' ...' + '</a>' +
                 '</div>'
               );
               i++;
